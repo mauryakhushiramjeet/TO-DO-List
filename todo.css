@@ -1,0 +1,202 @@
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+.deletebutton{
+    position: absolute;
+    right: 10px;
+    margin-bottom: 7px;
+    font-size: 0.9rem;
+    text-align: center;
+    align-items: center;
+    height: 25px;
+    background-color: yellow;
+border-radius: 9rem;}
+
+.main{
+    /* background-color: linear-gradient(135ged,red); */
+    background-color: rgb(13, 40, 71);
+    height: 499px;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+}
+.ul{
+    margin-top:70px ;
+    /* border: 2px solid rgb(171, 154, 189); */
+    height: 259px;
+    border-radius: 9px;
+    padding: 30px ;
+    text-align: left;
+    background-color: rgb(224, 28, 14);
+
+}
+.li{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: white;
+}
+.inpu{
+    height: 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    
+}
+.head{
+    color: rgb(253, 253, 223);
+}
+.ADD{
+    margin-left: 1rem;
+    height: 1.6rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+@media (max-width:515px) {
+    .main{
+        height: 400px;
+    width: 450px;
+    background-color:purple;
+    }
+    .ul{
+        margin-top:55px ;
+        /* border: 2px solid rgb(171, 154, 189); */
+        height: 197px;
+        border-radius: 7px;
+        padding: 20px ;
+        background-color: rgb(225, 72, 97);
+    
+    }
+    .head{
+        color: rgb(252, 252, 252);
+    }
+    .inpu{
+        height: 1.3rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        color: black;
+        text-transform: capitalize;
+        border: 2px solid rgb(23, 4, 2);
+    }
+    .li{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:412px) {
+    .main{
+        height: 350px;
+    width: 350px;
+    background-color:purple;
+    border-radius: 11px;
+    }
+    .ul{
+        margin-top:55px ;
+        /* border: 2px solid rgb(171, 154, 189); */
+        height: 170px;
+        border-radius: 7px;
+        padding: 20px ;
+        background-color: rgb(225, 72, 97);
+    
+    }
+    .head{
+        color: rgb(252, 252, 252);
+    }
+    .inpu{
+        height: 1.2rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        color: black;
+        text-transform: capitalize;
+        border: 2px solid rgb(11, 1, 20);
+    }
+    .ADD{
+        margin-left: 1.2rem;
+        height: 1.2rem;
+        font-size: 0.9rem;
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+        border: 2px solid white;
+    }
+    .deletebutton{
+        margin-left: 70px;
+        
+        font-size: 0.8rem;
+        text-align: center;
+        align-items: center;
+        height: 22px;
+        background-color: rgb(244, 243, 250);
+    border-radius: 6rem;}
+    .li{
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: white;
+    }
+    .head{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:346px) {
+    .main{
+        height: 250px;
+    width: 200px;
+    background-color:purple;
+    border-radius: 11px;
+    }
+    .ul{
+        margin-top:25px ;
+        /* border: 2px solid rgb(171, 154, 189); */
+        height: 122px;
+        border-radius: 6px;
+        padding: 18px ;
+        background-color: rgb(225, 72, 97);
+    
+    }
+    .head{
+        color: rgb(252, 252, 252);
+    }
+    .inpu{
+        width: 5.6rem;
+        height: 1rem;
+        border-radius: 6px;
+        font-size: 0.7rem;
+        color: black;
+        text-transform: capitalize;
+        border: 2px solid rgb(11, 1, 20);
+    }
+    .ADD{
+        margin-left: 1rem;
+        height: 1.1rem;
+        font-size: 0.7rem;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+    .deletebutton{
+        margin-left: 70px;
+        
+        font-size: 0.6rem;
+        text-align: center;
+        align-items: center;
+        height: 18px;
+        background-color: rgb(244, 243, 250);
+    border-radius: 3rem;}
+    .li{
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: white;
+    }
+    .head{
+        font-size: 1.2rem;
+    }
+}
